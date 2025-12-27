@@ -137,7 +137,7 @@ nav .identitas-situs h4 {
 
 /* home */
 .bagian-pembuka {
-  padding: 120px 0 100px;
+  padding: 90px 0 100px;
   background-color: var(--color-light);
 }
 
@@ -700,6 +700,10 @@ footer {
 
 /* mobile or handphone */
 @media screen and (max-width: 576px) {
+  .bagian-pembuka {
+    padding-top: 80px;
+  }
+
   .tombol-menu-mobile {
     display: flex;
   }
